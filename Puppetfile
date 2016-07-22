@@ -61,4 +61,3 @@ mod 'node_manager',
 mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
   :tag => '1.4.3'
-
