@@ -23,3 +23,9 @@ ini_setting { 'Configure basemodulepath':
   setting => 'basemodulepath',
   value   => '$confdir/modules:/opt/puppet/share/puppet/modules',
 }
+
+ini_setting { 'Configure dns_alt_names':
+  section => 'main',
+  setting => 'dns_alt_names',
+  value   => 'puppet,puppet.local.vm,master,master.local.vm',
+}
